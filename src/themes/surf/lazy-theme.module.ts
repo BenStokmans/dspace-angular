@@ -7,7 +7,6 @@ import {
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { StoreModule } from '@ngrx/store';
@@ -15,16 +14,14 @@ import { TranslateModule } from '@ngx-translate/core';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 import { RootModule } from '../../app/root.module';
-import { SearchResultsSkeletonComponent } from '../../app/shared/search/search-results/search-results-skeleton/search-results-skeleton.component';
-import { ExpandableNavbarSectionComponent } from './app/navbar/expandable-navbar-section/expandable-navbar-section.component';
 
 const DECLARATIONS = [
-  ExpandableNavbarSectionComponent,
-  SearchResultsSkeletonComponent,
 ];
 
 @NgModule({
-  imports: [RootModule,
+  declarations: DECLARATIONS,
+  imports: [
+    RootModule,
     CommonModule,
     DragDropModule,
     FormsModule,
@@ -35,19 +32,18 @@ const DECLARATIONS = [
     StoreRouterConnectingModule,
     TranslateModule,
     FormsModule,
-    NgxGalleryModule,
-    ...DECLARATIONS],
+  ],
   providers: [
     provideHttpClient(withInterceptorsFromDi()),
   ],
 })
 
 /**
-   * This module serves as an index for all the components in this theme.
-   * It should import all other modules, so the compiler knows where to find any components referenced
-   * from a component in this theme
-   * It is purposefully not exported, it should never be imported anywhere else, its only purpose is
-   * to give lazily loaded components a context in which they can be compiled successfully
-   */
+ * This module serves as an index for all the components in this theme.
+ * It should import all other modules, so the compiler knows where to find any components referenced
+ * from a component in this theme
+ * It is purposefully not exported, it should never be imported anywhere else, its only purpose is
+ * to give lazily loaded components a context in which they can be compiled successfully
+ */
 class LazyThemeModule {
 }

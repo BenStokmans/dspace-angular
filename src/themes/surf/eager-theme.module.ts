@@ -3,18 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { RootModule } from '../../app/root.module';
 import { HeaderComponent } from './app/header/header.component';
+import { HeaderNavbarWrapperComponent } from './app/header-nav-wrapper/header-navbar-wrapper.component';
+import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
 import { NavbarComponent } from './app/navbar/navbar.component';
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
  * This will ensure that decorator gets picked up when the app loads
  */
-const ENTRY_COMPONENTS = [
-];
+const ENTRY_COMPONENTS = [];
 
 const DECLARATIONS = [
   ...ENTRY_COMPONENTS,
+  HomeNewsComponent,
   HeaderComponent,
+  HeaderNavbarWrapperComponent,
   NavbarComponent,
 ];
 
