@@ -6,3 +6,22 @@ rest:
 
 themes:
   - name: surf
+    headTags:
+      - tagName: link
+        attributes:
+          rel: icon
+          href: /assets/surf/images/favicons/favicon.ico
+          sizes: any
+      - tagName: link
+        attributes:
+          rel: icon
+          href: /assets/surf/images/favicons/favicon.svg
+          type: image/svg+xml
+      - tagName: link
+        attributes:
+          rel: apple-touch-icon
+          href: /assets/surf/images/favicons/apple-touch-icon.png
+      - tagName: link
+        attributes:
+          rel: manifest
+          href: assets/surf/images/favicons/manifest.webmanifest
