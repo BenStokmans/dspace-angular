@@ -3892,7 +3892,7 @@
 
   "orgunit.page.ror": "ROR Identifier",
 
-  "orgunit.search.results.head": "Organizational Unit Search Results",
+  "orgunit.search.results.head": "Zoekresultaten organisatorische eenheden",
 
   "pagination.options.description": "Pagination options",
 
@@ -3932,7 +3932,7 @@
 
   "person.page.titleprefix": "Persoon: ",
 
-  "person.search.results.head": "Zoekresultaten Persoon",
+  "person.search.results.head": "Zoekresultaten personen",
 
   "person-relationships.search.results.head": "Person Search Results",
 
@@ -4182,7 +4182,7 @@
 
   "project.page.titleprefix": "Onderzoeksproject: ",
 
-  "project.search.results.head": "Project Search Results",
+  "project.search.results.head": "Zoekresultaten onderzoeksprojecten",
 
   "project-relationships.search.results.head": "Project Search Results",
 
@@ -4204,7 +4204,7 @@
 
   "publication.page.volume-title": "Jaargangtitel",
 
-  "publication.search.results.head": "Publicatie zoekresultaten",
+  "publication.search.results.head": "Zoekresultaten publicaties",
 
   "publication-relationships.search.results.head": "Publication Search Results",
 
@@ -5258,7 +5258,7 @@
 
   "submission.sections.describe.relationship-lookup.selected": "Selected {{ size }} items",
 
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAuthorOfPublication": "Local Authors ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAuthorOfPublication": "Auteurs",
 
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalOfPublication": "Local Journals ({{ count }})",
 
@@ -5326,23 +5326,23 @@
 
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfPublication": "Search for Funding Agencies",
 
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingOfPublication": "Search for Funding",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingOfPublication": "Financiering",
 
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isChildOrgUnitOf": "Search for Organizational Units",
 
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfPublication": "Projects",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfPublication": "Onderzoeksprojecten",
 
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfProject": "Funder of the Project",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfProject": "Financieringsinstanties",
 
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfAuthor": "Publication of the Author",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfAuthor": "Publicaties",
 
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfProject": "OrgUnit of the Project",
 
   "submission.sections.describe.relationship-lookup.selection-tab.title.isProjectOfPublication": "Project",
 
-  "submission.sections.describe.relationship-lookup.title.isProjectOfPublication": "Projects",
+  "submission.sections.describe.relationship-lookup.title.isProjectOfPublication": "Onderzoeksprojecten",
 
-  "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfProject": "Funder of the Project",
+  "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfProject": "Financieringsinstanties",
 
   "submission.sections.describe.relationship-lookup.title.isPersonOfProject": "Person of the Project",
 
@@ -5364,7 +5364,7 @@
 
   "submission.sections.describe.relationship-lookup.title.isJournalOfPublication": "Journals",
 
-  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Authors",
+  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Auteurs",
 
   "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Funding Agency",
 
@@ -5382,11 +5382,11 @@
 
   "submission.sections.describe.relationship-lookup.title.Funding Agency": "Funding Agency",
 
-  "submission.sections.describe.relationship-lookup.title.isFundingOfPublication": "Funding",
+  "submission.sections.describe.relationship-lookup.title.isFundingOfPublication": "Financiering",
 
   "submission.sections.describe.relationship-lookup.title.isChildOrgUnitOf": "Parent Organizational Unit",
 
-  "submission.sections.describe.relationship-lookup.title.isPublicationOfAuthor": "Publication",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfAuthor": "Publicaties (auteur)",
 
   "submission.sections.describe.relationship-lookup.title.isOrgUnitOfProject": "OrgUnit",
 
@@ -7443,4 +7443,260 @@
   "relationships.Publication.isReferencedByPublication.Product": "Producten (gerefereerd door)",
 
   "relationships.Publication.references.Publication": "Referenties",
+
+  "submission.sections.describe.relationship-lookup.title.isOrgUnitOfEquipment": "Organisatorische eenheden",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfEquipment": "Organisatorische eenheden",
+
+  "submission.sections.describe.relationship-lookup.title.isProductOfEquipment": "Producten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProductOfEquipment": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfEquipment": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfEquipment": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isOrganizerOfEvent": "Organisatoren (organisatorische eenheden)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrganizerOfEvent": "Organisatoren",
+
+  "submission.sections.describe.relationship-lookup.title.isPersonOfEvent": "Organisatoren (personen)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPersonOfEvent": "Organisatoren",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfEvent": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfEvent": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfEvent": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfEvent": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingPartOf": "Financiering (deel van)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingPartOf": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.title.isOrgUnitOfFunding": "Organisatorische eenheden",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfFunding": "Organisatorische eenheden",
+
+  "submission.sections.describe.relationship-lookup.title.isPartOfFunding": "Financiering (deel van)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPartOfFunding": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.title.isProductOfFunding": "Producten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProductOfFunding": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfFunding": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfFunding": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfFunding": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfFunding": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isEquipmentOfOrgUnit": "Apparatuur",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEquipmentOfOrgUnit": "Apparatuur",
+
+  "submission.sections.describe.relationship-lookup.title.isEventOfOrganizer": "Evenementen (georganiseerd)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEventOfOrganizer": "Evenementen",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingOfOrgUnit": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingOfOrgUnit": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.title.isHostingProduct": "Gehoste producten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isHostingProduct": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isOrgUnitPartOf": "Organisatorische eenheden (onderdeel van)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitPartOf": "Organisatorische eenheden",
+
+  "submission.sections.describe.relationship-lookup.title.isPartOfOrgUnit": "Organisatorische eenheden (onderdeel van)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPartOfOrgUnit": "Organisatorische eenheden",
+
+  "submission.sections.describe.relationship-lookup.title.isPersonOfAffiliation": "Personen (geaffilieerd)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPersonOfAffiliation": "Personen",
+
+  "submission.sections.describe.relationship-lookup.title.isProductOfContributor": "Producten (bijgedragen door)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProductOfContributor": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isProductOfCreator": "Producten (gemaakt door)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProductOfCreator": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfCoordinator": "Onderzoeksprojecten (coördinator)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfCoordinator": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfFundingAgency": "Onderzoeksprojecten (financier)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfFundingAgency": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfPartner": "Onderzoeksprojecten (partner)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfPartner": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfContributor": "Publicaties (bijgedragen door)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfContributor": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfPublisher": "Publicaties (uitgever)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfPublisher": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isAffiliationOfPerson": "Affiliaties",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAffiliationOfPerson": "Affiliaties",
+
+  "submission.sections.describe.relationship-lookup.title.isEventOfPerson": "Evenementen",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEventOfPerson": "Evenementen",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfPrincipalInvestigator": "Onderzoeksprojecten (hoofdonderzoeker)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfPrincipalInvestigator": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfResearcher": "Onderzoeksprojecten (onderzoeker)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfResearcher": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfEditor": "Publicaties (redacteur)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfEditor": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isRelatedToPerson": "Gerelateerde personen",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isRelatedToPerson": "Gerelateerde personen",
+
+  "submission.sections.describe.relationship-lookup.title.isContributorOfProduct": "Bijdragers",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isContributorOfProduct": "Bijdragers",
+
+  "submission.sections.describe.relationship-lookup.title.isCreatorOfProduct": "Makers",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isCreatorOfProduct": "Makers",
+
+  "submission.sections.describe.relationship-lookup.title.isEquipmentOfProduct": "Apparatuur",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEquipmentOfProduct": "Apparatuur",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingOfProduct": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingOfProduct": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.title.isHostedByOrgUnit": "Gehost door (organisatorische eenheid)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isHostedByOrgUnit": "Gehost door",
+
+  "submission.sections.describe.relationship-lookup.title.isPartOfProduct": "Ouderproducten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPartOfProduct": "Ouderproducten",
+
+  "submission.sections.describe.relationship-lookup.title.isProductPartOf": "Producten (deel van)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProductPartOf": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isProjectOfProduct": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfProduct": "Onderzoeksprojecten",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfProduct": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfProduct": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationReferencedBy": "Publicaties (gerefereerd door)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationReferencedBy": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isCoordinatorOfProject": "Coördinatoren",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isCoordinatorOfProject": "Coördinatoren",
+
+  "submission.sections.describe.relationship-lookup.title.isEquipmentOfProject": "Apparatuur",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEquipmentOfProject": "Apparatuur",
+
+  "submission.sections.describe.relationship-lookup.title.isEventOfProject": "Evenementen",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEventOfProject": "Evenementen",
+
+  "submission.sections.describe.relationship-lookup.title.isFundingOfProject": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingOfProject": "Financiering",
+
+  "submission.sections.describe.relationship-lookup.title.isPartnerOfProject": "Partners",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPartnerOfProject": "Partners",
+
+  "submission.sections.describe.relationship-lookup.title.isPrincipalInvestigatorOfProject": "Hoofdonderzoekers",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPrincipalInvestigatorOfProject": "Hoofdonderzoekers",
+
+  "submission.sections.describe.relationship-lookup.title.isProductOfProject": "Producten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProductOfProject": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfProject": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfProject": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isResearcherOfProject": "Onderzoekers",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isResearcherOfProject": "Onderzoekers",
+
+  "submission.sections.describe.relationship-lookup.title.isContributorOfPublication": "Bijdragers",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isContributorOfPublication": "Bijdragers",
+
+  "submission.sections.describe.relationship-lookup.title.isEditorOfPublication": "Redacteuren",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEditorOfPublication": "Redacteuren",
+
+  "submission.sections.describe.relationship-lookup.title.isEventOfPublication": "Evenementen",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEventOfPublication": "Evenementen",
+
+  "submission.sections.describe.relationship-lookup.title.isPartOfPublication": "Onderdeel van publicaties",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPartOfPublication": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isProductOfPublication": "Producten",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProductOfPublication": "Producten",
+
+  "submission.sections.describe.relationship-lookup.title.isPublicationPartOf": "Publicaties (onderdeel van)",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationPartOf": "Publicaties",
+
+  "submission.sections.describe.relationship-lookup.title.isPublisherOfPublication": "Uitgever",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublisherOfPublication": "Uitgever",
+
+  "submission.sections.describe.relationship-lookup.title.isReferencedBy": "Gerefereerd door",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isReferencedBy": "Gerefereerd door",
+
+  "submission.sections.describe.relationship-lookup.title.isReferencedByPublication": "Gerefereerd door",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isReferencedByPublication": "Gerefereerd door",
+
+  "submission.sections.describe.relationship-lookup.title.references": "Referenties",
+
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.references": "Referenties",
+
+  "equipment.search.results.head": "Zoekresultaten apparatuur",
+
+  "event.search.results.head": "Zoekresultaten evenementen",
+
+  "funding.search.results.head": "Zoekresultaten financiering",
+
+  "product.search.results.head": "Zoekresultaten producten",
 }
