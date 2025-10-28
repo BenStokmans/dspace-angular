@@ -42,6 +42,13 @@ function parseCliInput() {
     .usage('(-s <source-dir> [-d <output-dir>])')
     .parse(process.argv);
 
+  // commander v7+ recommends using program.opts() to access parsed options.
+  // For backward compatibility with code that expects program.outputDir / program.sourceDir,
+  // copy the values from opts onto program.
+  const opts = program.opts ? program.opts() : {};
+  program.outputDir = opts.outputDir || program.outputDir;
+  program.sourceDir = opts.sourceDir || program.sourceDir;
+
   if (program.outputDir && program.sourceDir) {
     if (!fs.existsSync(program.outputDir) && !fs.lstatSync(program.outputDir).isDirectory() ) {
       console.error('Output does not exist or is not a directory.');
